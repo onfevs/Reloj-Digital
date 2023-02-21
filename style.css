@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #1af, 0 0 30px #1af, 0 0 80px #1af;
+    width: 600px;
+    height: 120px;
+}
+
+.digit {
+    font-size: 80px;
+    font-weight: bold;
+    color: #1af;
+    text-shadow: 0 0 10px #1af, 0 0 20px #1af, 0 0 30px #1af, 0 0 40px #1af;
+}
+
+.colon {
+    font-size: 80px;
+    font-weight: bold;
+    color: #1af;
+    text-shadow: 0 0 10px #1af, 0 0 20px #1af, 0 0 30px #1af, 0 0 40px #1af;
+    margin: 0 20px;
+}
+
+.neon {
+    color: #f0f;
+    text-shadow: 0 0 10px #f0f, 0 0 20px #f0f, 0 0 30px #f0f, 0 0 40px #f0f;
+}
